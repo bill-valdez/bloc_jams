@@ -26,20 +26,9 @@
      text-shadow: 1px 1px 0px rgb(58,23,63);
  }
  
- .selling-points {
-     position: relative;
-     display: table;
-     -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-     box-sizing: border-box;
- }
+
  
- .point {
-     display: table-cell;
-     position: relative;
-     padding: 2rem;
-     text-align: center;
- }
+
  
  .point .point-title {
      font-size: 1.25rem;
