@@ -12,7 +12,7 @@
  }
  
   body.landing {
-     background-color: rgb(58,23,63);
+     background-color: rgb(0,0,0);
  }
  
  .navbar {
@@ -68,10 +68,18 @@
      color:#F1AF1E;
  }
  
- .ion-music-note,
- .ion-radio-waves,
+ .ion-music-note {
+     color: rgb(255,170,0);
+     font-size: 5rem;
+ }
+
+ .ion-radio-waves {
+     color: rgb(170,255,0);
+     font-size: 5rem;
+ }
+
  .ion-iphone {
-     color: rgb(233,50,117);
+     color: rgb(0,212,255);
      font-size: 5rem;
  }
 
