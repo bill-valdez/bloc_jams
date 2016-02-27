@@ -17,7 +17,7 @@
  
  .navbar {
      padding: 0.5rem;
-     background-color: rgb(101,18,95);
+     background-color: #010101;
  }
  
  .navbar .logo {
@@ -51,7 +51,7 @@
      position: relative;
      display: table;
      width: 100%;
-    
+    background-color:#010101;
  }
  
  .point {
@@ -60,10 +60,12 @@
      width: 33.3%;
      padding: 2rem;
      text-align: center;
+     background-color:#010101;
  }
  
  .point .point-title {
      font-size: 1.25rem;
+     color:#F1AF1E;
  }
  
  .ion-music-note,
