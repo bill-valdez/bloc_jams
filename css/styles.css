@@ -14,15 +14,27 @@
   body.landing {
      background-color: rgb(0,0,0);
  }
+.container {
+     margin: 0 auto;
+     max-width: 64rem;
+ }
+ 
+ /* Medium screens (640px) */
+ @media (min-width: 640px) {
+     html { font-size: 112%; }
+ }
  
  .navbar {
+     position: relative;
      padding: 0.5rem;
      background-color: #010101;
+     z-index: 1;
  }
  
  .navbar .logo {
      position: relative; /* positioning will be explained in a resource */
      left: 2rem;
+     cursor: pointer; 
  }
  .hero-content {
      position: relative; /* positioning will be explained in a resource */
