@@ -4,11 +4,12 @@
      background-attachment: fixed;
      background-position: center center;
      background-size: cover;
+      
  }
  
  .album-covers {
      position: relative;
-  
+
     
  }
  
@@ -17,11 +18,13 @@
      margin-top: 30px;
      margin-bottom: 20px;
      text-align: center;
+    
  
  }
  
  .collection-album-container .caption {
      margin-top: 10px;
+     
  }
  
  .collection-album-container .caption p {
@@ -40,5 +43,5 @@
  
  .collection-album-container img {
      width: 20%;
-    border-radius: 50%;
+  
  }

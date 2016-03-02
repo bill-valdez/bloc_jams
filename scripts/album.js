@@ -12,8 +12,9 @@ var albumPicasso = {
          { title: 'Magenta', duration: '2:15'}
      ]
  };
-
-var albumMarconi = {
+ 
+ // Another Example Album
+ var albumMarconi = {
      title: 'The Telephone',
      artist: 'Guglielmo Marconi',
      label: 'EM',
@@ -28,6 +29,20 @@ var albumMarconi = {
      ]
  };
 
+ var albumDonaldson = {
+     title: 'Blues Walk',
+     artist: 'Lou Donaldson',
+     label: 'EM',
+     year: '1987',
+     albumArtUrl: 'assets/images/album_covers/15.png',
+     songs: [
+         { title: 'Blues Walk', duration: '6:43' },
+         { title: 'Move', duration: '5:53' },
+         { title: 'The Masquerade Is Over', duration: '5:52'},
+         { title: 'Play Ray', duration: '5:31' },
+         { title: 'Autumn Nocturne', duration: '4:55'}
+     ]
+ };
 var createSongRow = function(songNumber, songName, songLength) {
      var template =
         '<tr class="album-view-song-item">'
@@ -39,6 +54,14 @@ var createSongRow = function(songNumber, songName, songLength) {
  
      return template;
  };
+
+ var albumTitle = document.getElementsByClassName('album-view-title')[0];
+     var albumArtist = document.getElementsByClassName('album-view-artist')[0];
+     var albumReleaseInfo = document.getElementsByClassName('album-view-release-info')[0];
+     var albumImage = document.getElementsByClassName('album-cover-art')[0];
+     var albumSongList = document.getElementsByClassName('album-view-song-list')[0];
+
+
 var setCurrentAlbum = function(album) {
      // #1
      var albumTitle = document.getElementsByClassName('album-view-title')[0];
@@ -64,4 +87,15 @@ var setCurrentAlbum = function(album) {
  
  window.onload = function() {
      setCurrentAlbum(albumPicasso);
+      var albumImage = document.getElementsByClassName('album-cover-art')[0];
+     var albums = [albumPicasso, albumMarconi, albumDonaldson];
+     var index = 1;
+    albumImage.addEventListener("click", function(event) {
+       
+        setCurrentAlbum(albums[index]);
+        index++;
+        if (index == albums.length) {
+            index = 0;
+        }
+    });
  };
