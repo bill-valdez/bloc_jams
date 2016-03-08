@@ -1,5 +1,5 @@
  body.landing {
-     background-color: rgb(28,28,28);
+     background-color: rgb(28, 28, 28);
  }
  
  .hero-content {
@@ -13,7 +13,7 @@
  
  .hero-content .hero-title {
      position: absolute;
-     top:40%;
+     top: 40%;
      -webkit-transform: translateY(-50%);
      -moz-transform: translateY(-50%);
      transform: translateY(-50%);
@@ -23,17 +23,13 @@
      font-weight: 300;
      text-transform: uppercase;
      letter-spacing: 0.5rem;
-     text-shadow: 1px 1px 0px rgb(58,23,63);
+     text-shadow: 1px 1px 0px rgb(58, 23, 63);
  }
-
-
  
-
- 
- .point  .point-title{
+ .point .point-title {
      padding-bottom: 60px;
      font-size: 1.25rem;
-       opacity: 1;
+     opacity: 1;
      -webkit-transform: scaleX(0.9) translateY(3rem);
      -moz-transform: scaleX(0.9) translateY(3rem);
      transform: scaleX(0.9) translateY(3rem);
@@ -44,8 +40,9 @@
      -moz-transition-delay: 0.2s;
      transition-delay: 0.2s;
  }
-.point {
-    position: relative;
+ 
+ .point {
+     position: relative;
      padding: 2rem;
      text-align: center;
      opacity: 0;
@@ -58,19 +55,19 @@
      -webkit-transition-delay: 0.5s;
      -moz-transition-delay: 0.5s;
      transition-delay: 0.5s;
-}
+ }
  
  .ion-music-note {
-     color: rgb(255,170,0);
+     color: rgb(255, 170, 0);
      font-size: 5rem;
  }
-
+ 
  .ion-radio-waves {
-     color: rgb(170,255,0);
+     color: rgb(170, 255, 0);
      font-size: 5rem;
  }
-
+ 
  .ion-iphone {
-     color: rgb(0,212,255);
+     color: rgb(0, 212, 255);
      font-size: 5rem;
  }

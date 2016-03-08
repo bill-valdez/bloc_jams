@@ -171,11 +171,11 @@ window.onload = function () {
             var currentParent = element.parentElement;
 
             if (currentParent) {
-                while (currentParent.className && currentParent.className.indexOf(targetClass)=== -1) {
+                while (currentParent.className && currentParent.className.indexOf(targetClass) === -1) {
                     currentParent = currentParent.parentElement;
                 }
 
-                if (currentParent.className.indexOf(targetClass)>-1) {
+                if (currentParent.className.indexOf(targetClass) > -1) {
                     return currentParent;
                 } else {
                     alert("No parent with that class name found.")
@@ -188,7 +188,7 @@ window.onload = function () {
         }
     };
 
- 
+
 
     var getSongItem = function (element) {
         switch (element.className) {
