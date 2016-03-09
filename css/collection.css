@@ -37,4 +37,5 @@
  
  .collection-album-container img {
      width: 20%;
+     border-radius: 50%;
  }
