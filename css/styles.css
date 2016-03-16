@@ -47,6 +47,7 @@ body.landing {
     /* positioning will be explained in a resource */
     left: 2rem;
     cursor: pointer;
+    border-radius: 20%;
 }
 
 .navbar .links-container {
