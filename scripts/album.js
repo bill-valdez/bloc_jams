@@ -162,7 +162,7 @@ var nextSong = function () {
 
     // Set a new current song
 
-    setSong(songNumber);
+   // setSong(songNumber);
 
     //play song when skipping
     setSong(currentSongIndex + 1);
@@ -178,7 +178,7 @@ var nextSong = function () {
 
     var lastSongNumber = getLastSongNumber(currentSongIndex);
     var $nextSongNumberCell = $('.song-item-number[data-song-number="' + currentlyPlayingSongNumber + '"]');
-    var $lastSongNumberCell = $('.song-item-number[data-song-number="' + number + '"]');
+    var $lastSongNumberCell = $('.song-item-number[data-song-number="' + lastSongNumber + '"]');
 
     $nextSongNumberCell.html(pauseButtonTemplate);
     $lastSongNumberCell.html(lastSongNumber);
