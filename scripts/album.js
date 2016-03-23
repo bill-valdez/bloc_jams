@@ -134,7 +134,7 @@ var filterTimeCode = function(timeInSeconds) {
     if (remainingSeconds <10) {
         output += '0';
     }
-    var output +=remainingSeconds;
+    output += remainingSeconds;
     
     return output;
 };
